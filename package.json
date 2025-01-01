@@ -38,7 +38,7 @@
     "when": "3.7.8"
   },
   "scripts": {
-    "install": "node-gyp rebuild",
+    "install": "node-gyp configure build",
     "test": "node testRunner.js",
     "postinstall": "node postInstall.js"
   },
